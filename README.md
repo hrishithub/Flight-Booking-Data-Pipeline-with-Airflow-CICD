@@ -1,4 +1,4 @@
-# Flight-Booking-Data-Pipeline-with-Airflow-CICD
+# Flight Booking Data Pipeline with Airflow and CICD
 
 ## Introduction
 This project presents a simple but production-inspired ETL pipeline to automate data engineering workflows. It extracts flight booking data from Google Cloud Storage, transforms it using PySpark on Dataproc Serverless, and loads the enriched results into BigQuery tables. The project integrates CI/CD using GitHub Actions and orchestrates the pipeline with environment-based Airflow DAGs running on Cloud Composer.
